@@ -48,12 +48,13 @@
       <link href="https://cywu92.github.io/index.xml" rel="feed" type="application/rss+xml" title="Chia-Yuan&#39;s Blog" />
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.100.2" />
 
     
 
   </head>
 
+  
   <body class="">
     <main class="wrapper">
       <nav class="navigation">
@@ -310,16 +311,16 @@ benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p>
 <p>Here is the example front matter:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">---
-title: &#34;Permalinks&#34;
-date: &#34;2013-11-18&#34;
-aliases:
-  - &#34;/doc/permalinks/&#34;
-groups: [&#34;extras&#34;]
-groups_weight: 30
-notoc: true
----
-</code></pre></div><p>Here is the corresponding code inside of the template:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Permalinks&#34;
+</span></span><span class="line"><span class="cl">date: &#34;2013-11-18&#34;
+</span></span><span class="line"><span class="cl">aliases:
+</span></span><span class="line"><span class="cl">  - &#34;/doc/permalinks/&#34;
+</span></span><span class="line"><span class="cl">groups: [&#34;extras&#34;]
+</span></span><span class="line"><span class="cl">groups_weight: 30
+</span></span><span class="line"><span class="cl">notoc: true
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><p>Here is the corresponding code inside of the template:</p>
 <pre><code>  {{ if not .Params.notoc }}
     &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
     {{ .TableOfContents }}
@@ -330,35 +331,35 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">params</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">CopyrightHTML</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span><span class="w">
-</span><span class="w">  </span><span class="nt">TwitterUser</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;spf13&#34;</span><span class="w">
-</span><span class="w">  </span><span class="nt">SidebarRecentLimit</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
-</span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">CopyrightHTML</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">TwitterUser</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;spf13&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">SidebarRecentLimit</span><span class="p">:</span><span class="w"> </span><span class="m">5</span><span class="w">
+</span></span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
-&lt;/footer&gt;{{end}}
-</code></pre></div><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+</span></span><span class="line"><span class="cl">&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+</span></span><span class="line"><span class="cl">&lt;/footer&gt;{{end}}
+</span></span></code></pre></div><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
-&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
-&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
- alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
-&lt;/span&gt;{{end}}
-</code></pre></div><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+</span></span><span class="line"><span class="cl"> alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
+</span></span><span class="line"><span class="cl">&lt;/span&gt;{{end}}
+</span></span></code></pre></div><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;nav class=&#34;recent&#34;&gt;
-  &lt;h1&gt;Recent Posts&lt;/h1&gt;
-  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
-  {{end}}&lt;/ul&gt;
-&lt;/nav&gt;
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;nav class=&#34;recent&#34;&gt;
+</span></span><span class="line"><span class="cl">  &lt;h1&gt;Recent Posts&lt;/h1&gt;
+</span></span><span class="line"><span class="cl">  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
+</span></span><span class="line"><span class="cl">    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+</span></span><span class="line"><span class="cl">  {{end}}&lt;/ul&gt;
+</span></span><span class="line"><span class="cl">&lt;/nav&gt;
+</span></span></code></pre></div>
   </article>
 
   <br/>
@@ -366,7 +367,7 @@ so, such as in this example:</p>
   
       <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -393,60 +394,18 @@ so, such as in this example:</p>
         <footer class="footer">
   <section class="container">
     
-      <div class="sns-shares sp-sns-shares">
-        
-          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f&ref_src=twsrc%5Etfw&text=%28Hu%29go%20Template%20Primer Chia-Yuan%27s%20Blog&tw_p=tweetbutton&url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-twitter"></i></a>
-        
-        
-          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
-        
-        
-          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://cywu92.github.io/posts/hugo-template-primer/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
-        
-        
-          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-line"></i></a>
-        
-        
-          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-linkedin"></i></a>
-        
-      </div>
     
+      <p>Welcome! Last updated on June 16, 2022. </p>
     
-      <p>Enter a text here.</p>
-    
-     © 2018    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+     
 
   </section>
 </footer>
-<div class="fixed-bar">
-  <section class="container">
-    
-    
-      <div class="sns-shares pc-sns-shares">
-        
-          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f&ref_src=twsrc%5Etfw&text=%28Hu%29go%20Template%20Primer Chia-Yuan%27s%20Blog&tw_p=tweetbutton&url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-twitter"></i></a>
-        
-        
-          <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
-        
-        
-          <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://cywu92.github.io/posts/hugo-template-primer/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
-        
-        
-          <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-line"></i></a>
-        
-        
-          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fcywu92.github.io%2fposts%2fhugo-template-primer%2f"><i class="fab fa-linkedin"></i></a>
-        
-      </div>
-    
-  </section>
-</div>
+
+
 
       
     </main>
-
-    
 
   <script src="/js/app.js"></script>
   
