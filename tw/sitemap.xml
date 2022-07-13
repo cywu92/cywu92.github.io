@@ -36,12 +36,44 @@
   </url><url>
     <loc>https://cywu92.github.io/tw/studyabroad/</loc>
     <lastmod>2022-06-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/studyabroad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/studyabroad/"
+                />
   </url><url>
     <loc>https://cywu92.github.io/tw/life/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/life/"
+                />
   </url><url>
     <loc>https://cywu92.github.io/tw/life/trekkingmtdabajian/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/life/trekkingmtxiaoguanyin/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/life/trekkingshuiyangforest/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/life/trekkingmttatunvolcanogroup/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/life/trekkingmttomatan/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cywu92.github.io/tw/about/</loc>
     <xhtml:link

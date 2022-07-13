@@ -115,5 +115,29 @@
                 hreflang="en"
                 href="https://cywu92.github.io/projects/"
                 />
+  </url><url>
+    <loc>https://cywu92.github.io/life/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/life/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/studyabroad/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/studyabroad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/studyabroad/"
+                />
   </url>
 </urlset>
