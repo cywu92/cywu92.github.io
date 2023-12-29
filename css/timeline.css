@@ -24,11 +24,22 @@ header h1{
   height: 35px;
   width: 60px;
   font-size: 22px;
-  background: #f0f0f0;
-  color: #3c3c3c;
+  background: #1ebd60;
+  color: #d60f0f;
   position: relative;
   margin-top: 15px;
 }
+
+/*.timeline1 .icon:before{
+  border-bottom: 15px solid blue;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.timeline1 .icon{
+  background: blue;
+}*/
+
 
 .icon:before{
   content: ""; 
@@ -36,10 +47,9 @@ header h1{
   left: 0; 
   width: 0; 
   height: 0;
-  border-bottom: 15px solid #f0f0f0;
+  border-bottom: 15px solid #1ebd60;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  top: -15px;
 }
 
 .icon:after{
@@ -50,15 +60,13 @@ header h1{
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
-  border-top: 15px solid #f0f0f0;
-  bottom: -15px;
+  border-top: 15px solid #1ebd60;
 }
 
 .timeline {
   position: relative;
   padding: 0;
   width: 100%;
-  margin-top: 20px;
   list-style-type: none;
 }
 
@@ -71,7 +79,7 @@ header h1{
   width: 2px;
   height: 100%;
   margin-left: -1px;
-  background: #d5d5d5;
+  background: #14c43a;
   /* background: -moz-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
   background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
@@ -106,29 +114,34 @@ header h1{
   font-size: 22px;
   width: 16px;
   height: 10px;
-  position: absolute;
+  position: relative;
   background: #3c3c3c;
   z-index: 5;
   left: 0;
   right: 0;
   margin-left:auto;
   margin-right:auto;
-  top: -30px;
+  left: 0px;
   margin-top: 0;
 }
 
+/*以長方形為基準，長方形應該相對在上三角形的哪個位置*/
 .timeline .icon:before {
-  border-bottom: 4px solid #3c3c3c;
+  border-bottom: 5px solid blue;
   border-left-width: 8px;
   border-right-width: 8px;
-  top: -4px;
+  bottom: 100%;
+  left: 1000%;
+  position: relative;
 }
 
+/*以長方形為基準，長方形應該相對在下三角形的哪個位置*/
 .timeline .icon:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #3c3c3c;
-  bottom: -4px;
+  border-top: 4px solid red;
+  top: 10px;
+  left: 1000%;
 }
 
 .direction-l,
