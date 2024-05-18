@@ -31,6 +31,19 @@
                 href="https://cywu92.github.io/tw/"
                 />
   </url><url>
+    <loc>https://cywu92.github.io/tw/life/</loc>
+    <lastmod>2022-06-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/life/"
+                />
+  </url><url>
     <loc>https://cywu92.github.io/tw/categories/study-abroad/</loc>
     <lastmod>2022-06-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,18 +60,8 @@
                 href="https://cywu92.github.io/tw/studyabroad/"
                 />
   </url><url>
-    <loc>https://cywu92.github.io/tw/life/</loc>
-    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/life/"
-                />
+    <loc>https://cywu92.github.io/tw/life/trekkingwulingthree/</loc>
+    <lastmod>2022-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cywu92.github.io/tw/life/trekkingmtdabajian/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>

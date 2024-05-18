@@ -1,0 +1,67 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Ensure avatar and author info are centered */
+.centered .about {
+  text-align: center;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.about h1, .about h2 {
+  text-align: center;
+}
+
+/* Ensure h3 in experience.html are left aligned */
+/* .about h3 {
+  text-align: left;
+} */
+
+/* Override default list item text alignment */
+.about p, .about ul {
+  text-align: left !important;
+}
+
+/* Custom bullet points using pseudo-elements for specific sections */
+.about ul:not(.social-list) {
+  list-style: none; /* Remove default list style */
+  padding-left: 0;
+}
+
+.about ul:not(.social-list) li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px; /* Adjust as needed for bullet point spacing */
+}
+
+.about ul:not(.social-list) li:before {
+  content: '\2022'; /* Unicode for bullet point */
+  position: absolute;
+  left: 0;
+  color: black; /* Adjust color as needed */
+}
+
+/* Center social icons without bullet points */
+.social-list {
+  display: flex !important;
+  justify-content: center !important;  /* Ensure horizontal centering */
+  align-items: center !important;  /* Ensure vertical centering */
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.social-item {
+  margin: 0 10px !important; /* Adjust spacing as needed */
+}
+
+.social-item a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.social-list .social-item i {
+  font-size: 30px !important; /* Ensure icon size */
+}
