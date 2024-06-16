@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Chia-Yuan Wu">
+    <meta name="description" content="https://cywu92.github.io">
+    <meta name="keywords" content="blog,developer,personal,research">
+
+    <meta property="og:site_name" content="Chia-Yuan&#39;s Website">
+    <meta property="og:title" content="
+  arXiv Paper Downloader - Chia-Yuan&#39;s Website
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cywu92.github.io/tools/arxivcrawler/">
+    <meta property="og:image" content="https://cywu92.github.io">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://cywu92.github.io/tools/arxivcrawler/">
+    <meta name="twitter:image" content="https://cywu92.github.io">
+
+    <meta name="google-site-verification" content="SoAfVWdIT9OAuUR8_sK06gZVep9mNdg1V2wbKSfvCR8" />
+
+    <base href="https://cywu92.github.io/tools/arxivcrawler/">
+    <title>
+  arXiv Paper Downloader - Chia-Yuan&#39;s Website
+</title>
+
+    <link rel="canonical" href="https://cywu92.github.io/tools/arxivcrawler/">
+    
+    <link rel="stylesheet" href="/css/academicons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    
+    
+
+    
+
+    
+    <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+
+    
+      <link rel="alternate" href="https://cywu92.github.io/index.xml" type="application/rss+xml" title="Chia-Yuan&#39;s Website">
+      <link href="https://cywu92.github.io/index.xml" rel="feed" type="application/rss+xml" title="Chia-Yuan&#39;s Website" />
+    
+
+    <meta name="generator" content="Hugo 0.100.2" />
+
+    
+
+  </head>
+
+  
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Chia-Yuan&#39;s Website</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://cywu92.github.io/tools">Tools</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://cywu92.github.io/contact">Contact</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            <li class= " mobile-menu-lang-separator-centered ">
+              <hr />
+            </li>
+          
+          
+            
+          
+            
+              
+                
+                  <li class="multilingual-separator">
+                    <p>|</p>
+                  </li>
+                
+                
+              
+              <li class="navigation-item  align-center ">
+                <a href="https://cywu92.github.io/tw/">中文</a>
+              </li>
+            
+          
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>arXiv Paper Downloader</h1>
+    </header>
+
+    <p>This Python program can automatically download papers from arXiv based on specific keywords (multiple keywords are supported), the range of publication year-month, and the desired number of papers to download..</p>
+<p><a href="https://github.com/cywu92/PaperCrawler" target="_blank">[Download here (GitHub)]</a></p>
+<hr>
+<h2 id="feature-highlights">Feature Highlights</h2>
+<ul>
+<li><strong>Keywords Search</strong>: Conducts paper searches based on keywords provided by the user, supporting multiple keyword entries.</li>
+<li><strong>Paper Upload Date Range Setting</strong>: Users can specify the year-month range for the paper uploaded date they wish to search.</li>
+<li><strong>Automatic Download</strong>: The program automatically downloads the search results to a specific local folder.</li>
+<li><strong>Avoid Duplicate Downloads</strong>: Records information about downloaded papers in an Excel file for future reference and to prevent duplicate downloads.</li>
+</ul>
+<h2 id="installation-requirements">Installation Requirements</h2>
+<p>Please ensure your system has the following Python packages installed:</p>
+<ul>
+<li>pandas</li>
+<li>requests</li>
+<li>beautifulsoup4</li>
+<li>selenium</li>
+</ul>
+<p>You can install these packages using the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install pandas requests beautifulsoup4 selenium
+</span></span></code></pre></div><h2 id="user-instructions">User Instructions</h2>
+<p>The following instructions are intended for Windows users:</p>
+<ol>
+<li>
+<p><strong>Clone or download the program to your computer</strong></p>
+</li>
+<li>
+<p><strong>Open Command Prompt (cmd) or PowerShell</strong>:</p>
+<ul>
+<li>Press the <code>Win</code> key, then type &ldquo;cmd&rdquo; or &ldquo;PowerShell&rdquo; in the search box and select the appropriate program to open.</li>
+</ul>
+</li>
+<li>
+<p><strong>Navigate to the directory containing your Python program</strong>:</p>
+<ul>
+<li>Use the <code>cd</code> command to change to the directory where your <code>main.py</code> file is located. For example, if your <code>main.py</code> file is in <code>C:\Users\Username\Documents\Project</code>, you can enter:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> C:<span class="se">\U</span>sers<span class="se">\U</span>sername<span class="se">\D</span>ocuments<span class="se">\P</span>roject
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Execute the program</strong>:</p>
+<ul>
+<li>Enter the following command in the command line, ensuring to replace the parameters in brackets with your specified settings:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python main.py --queries <span class="o">[</span>keywords<span class="o">]</span> --start_year_month <span class="o">[</span>start year-month<span class="o">]</span> --end_year_month <span class="o">[</span>end year-month<span class="o">]</span> --num_papers <span class="o">[</span>number of papers<span class="o">]</span>
+</span></span></code></pre></div></li>
+<li>For example, to download papers on &ldquo;fairness&rdquo;, &ldquo;machine learning&rdquo;, and &ldquo;synthetic data generation&rdquo;, and to set the search time period between January 2023 and December 2023, you can use the following command:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python main.py --queries <span class="s2">&#34;fairness&#34;</span> <span class="s2">&#34;machine learning&#34;</span> <span class="s2">&#34;synthetic data generation&#34;</span> --start_year_month <span class="m">202301</span> --end_year_month <span class="m">202312</span> --num_papers <span class="m">5</span>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
+<p>Please ensure your system has Python and the necessary packages installed, as outlined in the <a href="#installation-requirements">Installation Requirements</a> section.</p>
+<h2 id="setting-default-parameters">Setting Default Parameters</h2>
+<p>This program supports setting default parameter values, allowing users to automatically use predefined search settings when no command line parameters are specified. This feature is convenient for users who frequently use the same parameters.</p>
+<h4 id="default-value-settings">Default Value Settings</h4>
+<p>Below is the implementation of the <code>Config</code> class, which is used in the program to store all default parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Config</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DEFAULT_QUERIES</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;fairness&#34;</span><span class="p">,</span> <span class="s2">&#34;machine learning&#34;</span><span class="p">,</span> <span class="s2">&#34;synthetic data generation&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DEFAULT_START_YEAR_MONTH</span> <span class="o">=</span> <span class="s2">&#34;202301&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DEFAULT_END_YEAR_MONTH</span> <span class="o">=</span> <span class="s2">&#34;202312&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DEFAULT_NUM_PAPERS</span> <span class="o">=</span> <span class="mi">5</span>
+</span></span></code></pre></div><h4 id="using-default-values">Using Default Values</h4>
+<p>When you do not specify corresponding parameters in the command line, the program will automatically use the default values defined in the <code>Config</code> class. Additionally, if you only specify some parameters, the other unspecified parameters will also default to these preset values.</p>
+<h4 id="modifying-default-values">Modifying Default Values</h4>
+<p>To modify these default values, you can directly edit them in the <code>Config</code> class. This flexibility allows the program to better adapt to your specific needs without the need to manually enter all parameters each time you run it, thus simplifying routine operations.</p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+    
+      <p>Welcome! Last updated on June 16, 2024. </p>
+    
+     
+
+  </section>
+</footer>
+
+
+
+      
+    </main>
+
+  <script src="/js/app.js"></script>
+  
+  </body>
+</html>

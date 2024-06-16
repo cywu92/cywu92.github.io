@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Chia-Yuan的個人網站</title>
+    <link>https://cywu92.github.io/tw/tags/python/</link>
+    <description>Recent content in python on Chia-Yuan的個人網站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cywu92.github.io/tw/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv Paper Downloader</title>
+      <link>https://cywu92.github.io/tw/tools/arxivcrawler/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cywu92.github.io/tw/tools/arxivcrawler/</guid>
+      <description>這個Python程式可以自動從arXiv下載關於特定主題的論文，使用者可以指定搜尋多個關鍵詞、論文上傳年月範圍和下載的論文數量。
+[這裡下載 (GitHub)]
+功能特點 關鍵詞搜索: 根據用戶提供的關鍵詞進行論文搜索，支援多個關鍵字輸入。 日期範圍設定: 用戶可以指定搜尋的論文上傳年月區間。 自動下載: 程式會自動下載搜索結果中的論文至本機特定資料夾。 避免重複下載: 將已下載的論文資訊維護在excel裡，供後續查看以及避免重複下載。 安裝需求 請確保您的系統已經安裝了以下Python套件：
+pandas requests beautifulsoup4 selenium 您可以使用以下命令安裝這些套件：
+pip install pandas requests beautifulsoup4 selenium 使用方法 以下說明為Windows用戶舉例：
+Clone或下載本程式到您的電腦
+開啟命令提示字元(cmd)或 PowerShell：
+按下 Win 鍵，然後在搜索框中輸入 &amp;ldquo;cmd&amp;rdquo; 或 &amp;ldquo;PowerShell&amp;rdquo;，選擇相應的程式來開啟。 導航到您的Python程式所在的目錄：
+使用 cd 命令改變當前目錄到程式所在的位置。例如，如果您的 main.py 文件在 C:\Users\Username\Documents\Project 目錄下，您可以輸入： cd C:\Users\Username\Documents\Project 執行程式：
+在命令行中輸入以下命令，確保替換中括號內的參數為您的需求設置： python main.py --queries [關鍵詞] --start_year_month [起始年月] --end_year_month [結束年月] --num_papers [下載數量] 例如，要下載關於 &amp;ldquo;fairness&amp;rdquo;, &amp;ldquo;machine learning&amp;rdquo; 和 &amp;ldquo;synthetic data generation&amp;rdquo; 的論文，並設定搜索時間範圍從 2023 年 1 月到 2023 年 12 月，可以使用以下命令： python main.</description>
+    </item>
+    
+  </channel>
+</rss>

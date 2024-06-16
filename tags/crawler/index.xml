@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crawler on Chia-Yuan&#39;s Website</title>
+    <link>https://cywu92.github.io/tags/crawler/</link>
+    <description>Recent content in crawler on Chia-Yuan&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cywu92.github.io/tags/crawler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv Paper Downloader</title>
+      <link>https://cywu92.github.io/tools/arxivcrawler/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cywu92.github.io/tools/arxivcrawler/</guid>
+      <description>This Python program can automatically download papers from arXiv based on specific keywords (multiple keywords are supported), the range of publication year-month, and the desired number of papers to download..
+[Download here (GitHub)]
+Feature Highlights Keywords Search: Conducts paper searches based on keywords provided by the user, supporting multiple keyword entries. Paper Upload Date Range Setting: Users can specify the year-month range for the paper uploaded date they wish to search.</description>
+    </item>
+    
+  </channel>
+</rss>

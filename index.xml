@@ -6,7 +6,18 @@
     <description>Recent content on Chia-Yuan&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://cywu92.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cywu92.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv Paper Downloader</title>
+      <link>https://cywu92.github.io/tools/arxivcrawler/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cywu92.github.io/tools/arxivcrawler/</guid>
+      <description>This Python program can automatically download papers from arXiv based on specific keywords (multiple keywords are supported), the range of publication year-month, and the desired number of papers to download..
+[Download here (GitHub)]
+Feature Highlights Keywords Search: Conducts paper searches based on keywords provided by the user, supporting multiple keyword entries. Paper Upload Date Range Setting: Users can specify the year-month range for the paper uploaded date they wish to search.</description>
+    </item>
+    
     <item>
       <title>Theme Demo</title>
       <link>https://cywu92.github.io/posts/theme-demo/</link>

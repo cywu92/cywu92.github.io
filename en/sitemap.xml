@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cywu92.github.io/tags/arxiv/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/arxiv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/arxiv/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tools/arxivcrawler/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tools/arxivcrawler/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tools/arxivcrawler/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/categories/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/categories/"
+                />
+  </url><url>
     <loc>https://cywu92.github.io/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
@@ -13,6 +52,110 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cywu92.github.io/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tags/crawler/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/crawler/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/crawler/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tags/papers/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/papers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/papers/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tags/python/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/python/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/categories/python/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/categories/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/categories/python/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tags/research/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/research/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tags/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/categories/tools/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/categories/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/categories/tools/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tools/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/tools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/tools/"
                 />
   </url><url>
     <loc>https://cywu92.github.io/posts/</loc>
@@ -26,19 +169,6 @@
   </url><url>
     <loc>https://cywu92.github.io/posts/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cywu92.github.io/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/categories/"
-                />
   </url><url>
     <loc>https://cywu92.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -60,19 +190,6 @@
   </url><url>
     <loc>https://cywu92.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cywu92.github.io/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/tags/"
-                />
   </url><url>
     <loc>https://cywu92.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
