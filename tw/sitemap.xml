@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cywu92.github.io/tw/studyabroad/buyanewcarinusa/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/categories/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/categories/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tw/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/"
+                />
+  </url><url>
+    <loc>https://cywu92.github.io/tw/categories/study-abroad/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cywu92.github.io/tw/studyabroad/</loc>
+    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cywu92.github.io/studyabroad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://cywu92.github.io/tw/studyabroad/"
+                />
+  </url><url>
     <loc>https://cywu92.github.io/tw/tags/arxiv/</loc>
     <lastmod>2024-06-16T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -26,32 +71,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://cywu92.github.io/tw/tools/arxivcrawler/"
-                />
-  </url><url>
-    <loc>https://cywu92.github.io/tw/categories/</loc>
-    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/categories/"
-                />
-  </url><url>
-    <loc>https://cywu92.github.io/tw/</loc>
-    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/"
                 />
   </url><url>
     <loc>https://cywu92.github.io/tw/tags/crawler/</loc>
@@ -172,22 +191,6 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://cywu92.github.io/tw/life/"
-                />
-  </url><url>
-    <loc>https://cywu92.github.io/tw/categories/study-abroad/</loc>
-    <lastmod>2022-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cywu92.github.io/tw/studyabroad/</loc>
-    <lastmod>2022-06-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cywu92.github.io/studyabroad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://cywu92.github.io/tw/studyabroad/"
                 />
   </url><url>
     <loc>https://cywu92.github.io/tw/life/trekkingwulingthree/</loc>
