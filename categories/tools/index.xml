@@ -13,7 +13,7 @@
       <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://cywu92.github.io/tools/arxivcrawler/</guid>
-      <description>This Python program can automatically download papers from arXiv based on specific keywords (multiple keywords are supported), the range of publication year-month, and the desired number of papers to download.
+      <description>This Python program can automatically download papers from arXiv based on specific keywords (multiple keywords are supported), the range of publication year-month, and the desired number of papers to download. Please note that this script currently supports only the Chrome browser.
 [Download here (GitHub)]
 Feature Highlights Keywords Search: Conducts paper searches based on keywords provided by the user, supporting multiple keyword entries. Paper Upload Date Range Setting: Users can specify the year-month range for the paper uploaded date they wish to search.</description>
     </item>
