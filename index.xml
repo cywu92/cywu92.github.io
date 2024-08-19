@@ -75,7 +75,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cywu92.github.io/about/</guid>
-      <description>I am a second-year Ph.D. student in the Department of Industrial and Systems Engineering (ISE) at Lehigh University under the supervision of Prof. Daniel P. Robinson. I received my M.S. from the Department of Industrial Engineering and Management in 2017, and my B.B.A. from the Department of Management Science at National Yang Ming Chiao Tung University in 2015 in Hsinchu, Taiwan.
+      <description>I am a third-year Ph.D. student in the Department of Industrial and Systems Engineering (ISE) at Lehigh University under the supervision of Prof. Daniel P. Robinson. I received my M.S. from the Department of Industrial Engineering and Management in 2017, and my B.B.A. from the Department of Management Science at National Yang Ming Chiao Tung University in 2015 in Hsinchu, Taiwan.
 I currently work in the research area of fair machine learning, fair federated learning, and synthetic data generation.</description>
     </item>
     
@@ -88,7 +88,7 @@ I currently work in the research area of fair machine learning, fair federated l
       <description>Do you have any questions or suggestions? Feel free to reach out!
 Linkedin
 Email: chw222@lehigh.edu
-Address: 200 W Packer Ave., Bethlehem, PA 18015, USA
+Address: 200 W Packer Ave., Rm. 354, Bethlehem, PA 18015, USA
 Thanks for visiting my website！</description>
     </item>
     
@@ -99,6 +99,16 @@ Thanks for visiting my website！</description>
       
       <guid>https://cywu92.github.io/projects/</guid>
       <description>Portfolio Demo Coder Portfolio This theme is created based on hugo-coder.
+I made it possible to tell yourself more by my change.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://cywu92.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cywu92.github.io/research/</guid>
+      <description>Enhancing Fairness in Machine Learning through Training Synthetic Datasets in Multi-Client Scenarios This theme is created based on hugo-coder.
 I made it possible to tell yourself more by my change.</description>
     </item>
     
