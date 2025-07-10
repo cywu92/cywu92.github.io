@@ -352,11 +352,13 @@ img{
 .centered .about h2{
     margin-top:1rem;
     margin-bottom:.5rem;
-    font-size:2.4rem
+    font-size:2.4rem;
+    text-transform: none !important;
 }
 @media only screen and (min-device-width:320px) and (max-device-width:480px){
     .centered .about h2{
-        font-size:2rem
+        font-size:2rem;
+        text-transform: none !important;
     }
 }
 .centered .about ul{
