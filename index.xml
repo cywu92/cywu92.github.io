@@ -98,6 +98,15 @@ Thanks for visiting my website！</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cywu92.github.io/projects/</guid>
+      <description>Skyworks Solutions, Inc. Co-op, Digital Supply Chain Team &amp;nbsp;|&amp;nbsp; 06/2026 – 12/2026 (Expected) Agentic Master Data Mapping &amp; Governance Pipeline 07/2026 – 09/2026 Architected a modular agentic workflow in Python using sqlglot, pandas, and LLMs to parse enterprise SQL definitions, automatically mapping SAP Material Master fields to supply chain bot logic to provide full data lineage visibility. Leveraged AI-assisted development (Cursor) to combine deterministic SQL parsing with LLM-based analysis, building node-based orchestration logic for mapping master-data fields to supply chain bot logic.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://cywu92.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cywu92.github.io/projects/</guid>
       <description>Portfolio Demo Coder Portfolio This theme is created based on hugo-coder.
 I made it possible to tell yourself more by my change.</description>
     </item>
